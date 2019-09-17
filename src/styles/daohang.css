@@ -1,0 +1,23 @@
+.box{
+    width:100%;
+    height:0.48rem;
+    border-top:0.02rem solid #f7f7f7;
+    display:flex;
+    position: fixed;
+    left:0px;
+    bottom:0px;
+}
+.box .nav{
+    color:#f83243;
+}
+a{
+    flex:1;
+    text-align:center;
+    font-size:0.14rem;
+    color:#919191;
+    line-height: 0.14rem;
+}
+img{
+    width:0.24rem;
+    margin:0.02rem 0;
+}
