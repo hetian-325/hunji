@@ -1,0 +1,20 @@
+.bigBox{
+    width:100%;
+    display:flex;
+    flex-wrap: wrap;
+    padding:0.13rem 0.06rem;
+}
+.bigBox .aBox{
+    width:20%;
+    padding:0.1rem 0.14rem;
+    text-align: center;
+}
+.aBox img{
+    width:0.43rem;
+    height:0.43rem;
+}
+.aBox span{
+    font-size:0.1rem;
+    color:#333333;
+    line-height: 0.1rem;
+}

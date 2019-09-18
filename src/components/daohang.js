@@ -2,25 +2,14 @@ import React, { Component } from 'react'
 import { NavLink } from 'react-router-dom'
 import "../styles/daohang.css"
 
-import img01 from '../img/link01.jpg'
-import img02 from '../img/link02.jpg'
-import img03 from '../img/link03.jpg'
-import img04 from '../img/link04.jpg'
-import img05 from '../img/link05.jpg'
-import img001 from '../img/link001.jpg'
-import img002 from '../img/link002.jpg'
-import img003 from '../img/link003.jpg'
-import img004 from '../img/link004.jpg'
-import img005 from '../img/link005.jpg'
-
 export default class daohang extends Component {
     state={
         navarr:[
-            {linkto:"/a",imga:img01,imgb:img001,text:"首页",bool:false},
-            {linkto:"/b",imga:img02,imgb:img002,text:"新娘说",bool:true},
-            {linkto:"/c",imga:img03,imgb:img003,text:"婚品11.11",bool:true},
-            {linkto:"/d",imga:img04,imgb:img004,text:"收藏",bool:true},
-            {linkto:"/e",imga:img05,imgb:img005,text:"我们",bool:true}
+            {linkto:"/a",imga:"img/link01.jpg",imgb:"img/link001.jpg",text:"首页",bool:false},
+            {linkto:"/b",imga:"img/link02.jpg",imgb:"img/link002.jpg",text:"新娘说",bool:true},
+            {linkto:"/c",imga:"img/link03.jpg",imgb:"img/link003.jpg",text:"婚品11.11",bool:true},
+            {linkto:"/d",imga:"img/link04.jpg",imgb:"img/link004.jpg",text:"收藏",bool:true},
+            {linkto:"/e",imga:"img/link05.jpg",imgb:"img/link005.jpg",text:"我们",bool:true}
         ],
         num:0
     }

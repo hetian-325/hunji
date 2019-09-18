@@ -1,0 +1,38 @@
+.headBox strong:first-child{
+    font-size:0.19rem;
+    color:#010101;
+    line-height: 0.19rem;
+    margin-left:0.17rem;
+}
+.headBox strong:last-child{
+    font-size:0.15rem;
+    color:#292929;
+    line-height: 0.15rem;
+    margin:0 0.05rem;
+}
+.ulBox{
+    width:100%;
+    display:flex;
+    flex-wrap:wrap;
+    padding:0.25rem 0.15rem;
+    justify-content: space-between;
+}
+.ulBox img{
+    width:1.1rem;
+    height:1.1rem;
+    border-radius:0.05rem;
+}
+.ulBox p{
+    margin-top:0.08rem;
+    width:1rem;
+    height:0.32rem;
+    font-size:0.13rem;
+    color:black;
+    line-height: 0.13rem;
+    text-align: left;
+}
+.ulBox span{
+    font-size:0.12rem;
+    color:#f93247;
+    line-height: 0.12rem;
+}

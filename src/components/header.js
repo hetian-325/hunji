@@ -7,7 +7,7 @@ const { Search } = Input
 export default class header extends Component {
     render() {
         return (
-            <div>
+            <div className="topBox">
                 <Row>
                     <Col span={1}></Col>
                     <Col span={16}>
@@ -17,8 +17,8 @@ export default class header extends Component {
                         style={{ width: 250 }}
                         />
                     </Col>
-                    <Col span={3}><img src={require('../img/head01.jpg')}/></Col>
-                    <Col span={3}><img src={require('../img/head02.jpg')}/></Col>
+                    <Col span={3}><a href="#"><img src="img/head01.jpg" /></a></Col>
+                    <Col span={3}><a href="#"><img src="img/head02.jpg" /></a></Col>
                     <Col span={1}></Col>
                 </Row>
             </div>
